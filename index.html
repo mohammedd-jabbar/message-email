@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <form class="submitForm">
+      <div class="form">
+        <div class="title">Mohammed massage</div>
+        <div class="subtitle">Let's have a massage together!</div>
+        <div class="input-container ic1">
+          <input
+            id="firstname"
+            class="input"
+            type="text"
+            placeholder=" "
+            required
+          />
+          <div class="cut1"></div>
+          <label for="firstname" class="placeholder">Name</label>
+        </div>
+        <div class="input-container ic2">
+          <textarea
+            id="massage"
+            class="input"
+            placeholder=" "
+            required
+          ></textarea>
+          <div class="cut2"></div>
+          <label for="massage" class="placeholder">Massage</label>
+        </div>
+
+        <div style="margin-top: 38px">
+          <button id="btn">
+            <p id="btnText">Submit</p>
+            <div class="check-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>
